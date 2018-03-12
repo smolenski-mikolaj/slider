@@ -1,0 +1,52 @@
+.slider-box .heading {
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #579e2d;
+}
+
+.slider-box {
+	text-align: center;
+}
+
+.slide {
+	display: none;
+	font-size: 20px;
+	padding: 0 75px;
+}
+
+.slide-active {
+	display: block;
+}
+
+.slider-box .arrow-left {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 75px;
+	height: 75px;
+	opacity: 0.1;
+	cursor: pointer;
+	transition: .2s;
+	background: url("../pic/arrow-left.png") no-repeat center;
+	background-size: contain;
+}
+
+.slider-box .arrow-right {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 75px;
+	height: 75px;
+	opacity: 0.1;
+	cursor: pointer;
+	transition: .2s;
+	background: url("../pic/arrow-right.png") no-repeat center;
+	background-size: contain;
+}
+
+.slider-box .arrow-left:hover,
+.slider-box .arrow-right:hover {
+	opacity: 1;
+}
